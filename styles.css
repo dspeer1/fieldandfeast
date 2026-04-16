@@ -127,3 +127,22 @@ table {
 
 /* GLOBAL STYLES (mobile first/small) */
 
+body {
+    font-family: Playfair Display;
+    background-color: var(--soft-white);
+    color: var(--dark-charcoal);
+}
+
+h1 {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+}
+
+header nav {
+    background-color: var(--champagne-gold);
+}
+
+header p {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+}
