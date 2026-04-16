@@ -136,19 +136,37 @@ body {
 h1 {
     background-color: var(--midnight-blue);
     color: var(--linen);
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+}
+
+header p {
+    background-color: var(--midnight-blue);
+    color: var(--linen);
+    font-style: italic;
+    text-align: center;
 }
 
 header nav {
     background-color: var(--champagne-gold);
 }
 
-header p {
-    background-color: var(--midnight-blue);
-    color: var(--linen);
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul li {
+  font-size: larger;
+  font-weight: bold;
 }
 
 h2 {
     color: var(--midnight-blue);
+    font-size: 150%;
+    font-weight: 500;
 }
 
 h3 {
@@ -156,6 +174,19 @@ h3 {
     color: var(--linen);
 }
 
-h3 p {
-    color: var(--linen);
+
+
+
+
+
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 900px) {
+  
+}
+
+@media (min-width: 1200px) {
+  
 }
