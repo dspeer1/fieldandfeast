@@ -146,3 +146,16 @@ header p {
     background-color: var(--midnight-blue);
     color: var(--linen);
 }
+
+h2 {
+    color: var(--midnight-blue);
+}
+
+h3 {
+    background-color: var(--olive-green);
+    color: var(--linen);
+}
+
+h3 p {
+    color: var(--linen);
+}
