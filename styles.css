@@ -129,8 +129,17 @@ table {
 
 body {
     font-family: Playfair Display;
-    background-color: var(--soft-white);
+    font-size: 90%;
+    font-weight: 500;
+    line-height: 1.45;
+    background-color: var(--midnight-blue);
     color: var(--dark-charcoal);
+}
+
+header img {
+  width: 160px;
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
@@ -165,6 +174,10 @@ nav ul a {
   text-decoration: none;
 }
 
+main {
+  background-color: var(--soft-white);
+}
+
 h2 {
     color: var(--midnight-blue);
     font-size: 150%;
@@ -186,6 +199,7 @@ h3 {
   background-color: var(--olive-green);
   display: grid;
   grid-template-rows: auto auto auto;
+  border-radius: 10px;
 }
 
 
