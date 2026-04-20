@@ -137,7 +137,7 @@ body {
 }
 
 header img {
-  width: 160px;
+  width: 200px;
   display: block;
   margin: 0 auto;
 }
@@ -145,16 +145,19 @@ header img {
 h1 {
     background-color: var(--midnight-blue);
     color: var(--linen);
-    font-size: 300%;
+    font-size: 450%;
     font-weight: bold;
     text-align: center;
+    padding: 10px;
 }
 
 header p {
     background-color: var(--midnight-blue);
     color: var(--linen);
+    font-size: 125%;
     font-style: italic;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 header nav {
@@ -164,13 +167,17 @@ header nav {
 header nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 40px;
 }
 
 nav ul a {
   color: var(--dark-charcoal);
-  font-size: larger;
-  font-weight: bold;
+  font-size: 130%;
+  font-weight: 800;
   text-decoration: none;
 }
 
@@ -178,14 +185,38 @@ main {
   background-color: var(--soft-white);
 }
 
+main p {
+  font-size: 110%;
+  padding-bottom: 20px;
+}
+
 h2 {
     color: var(--midnight-blue);
-    font-size: 150%;
+    font-size: 225%;
     font-weight: 500;
+    padding-top: 45px;
+}
+
+h2 a {
+  padding-bottom: 20px;
+}
+
+#about {
+  margin: 20px;
+  border-bottom: 2px solid var(--champagne-gold);
 }
 
 #offerings {
+  margin: 20px;
+  border-bottom: 2px solid var(--champagne-gold);
   color: var(--linen);
+  padding-bottom: 20px;
+}
+
+#gallery {
+  margin: 20px;
+  border-bottom: 2px solid var(--champagne-gold);
+  padding-bottom: 20px;
 }
 
 h3 {
