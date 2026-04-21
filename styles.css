@@ -128,12 +128,16 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 
 body {
+  background-color: var(--soft-white);
   font-family: Playfair Display;
   font-size: 90%;
   font-weight: 500;
   line-height: 1.45;
-  background-color: var(--midnight-blue);
   color: var(--dark-charcoal);
+}
+
+header {
+  background-color: var(--midnight-blue);
 }
 
 header img {
@@ -167,11 +171,10 @@ header nav {
 header nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  gap: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 40px;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 header ul a {
@@ -300,12 +303,6 @@ footer a {
 
 
 
-
-
-
-
-
-
 @media (min-width: 600px) {
   #offerings {
     display: grid;
@@ -324,12 +321,34 @@ footer a {
   #offerings section:nth-of-type(3) {
     grid-column: 1 / -1;
   }
+
+  #gallery > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  }
 }
+
+
 
 @media (min-width: 900px) {
-  
+  #gallery > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  }
 }
 
+
+
 @media (min-width: 1200px) {
-  
+  main {
+    background-color: var(--soft-white);
+    margin-left: 200px;
+  }
+
+  #gallery > div {
+  display: flex;
+  gap: 10px;
+  }
 }
