@@ -174,7 +174,7 @@ header nav ul {
   margin-left: 40px;
 }
 
-nav ul a {
+header ul a {
   color: var(--dark-charcoal);
   font-size: 130%;
   font-weight: 800;
@@ -194,15 +194,12 @@ h2 {
     color: var(--midnight-blue);
     font-size: 225%;
     font-weight: 500;
-    padding-top: 45px;
-}
-
-h2 a {
-  padding-bottom: 20px;
 }
 
 #about {
-  margin: 20px;
+  padding-top: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-bottom: 2px solid var(--champagne-gold);
 }
 
@@ -211,6 +208,16 @@ h2 a {
   border-bottom: 2px solid var(--champagne-gold);
   color: var(--linen);
   padding-bottom: 20px;
+}
+
+#offerings section {
+  background-color: var(--olive-green);
+  display: grid;
+  grid-template-rows: auto auto auto;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2)
 }
 
 #gallery {
@@ -222,16 +229,10 @@ h2 a {
 h3 {
     background-color: var(--olive-green);
     color: var(--linen);
-    font-size: larger;
+    font-size: 180%;
     font-weight: bold;
 }
 
-#offerings section {
-  background-color: var(--olive-green);
-  display: grid;
-  grid-template-rows: auto auto auto;
-  border-radius: 10px;
-}
 
 
 
