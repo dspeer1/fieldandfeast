@@ -344,9 +344,9 @@ footer a {
 
 @media (min-width: 1200px) {
   main {
-    margin-left: 575px;
-    margin-right: 575px;
-  }
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
   #gallery > div {
   display: flex;
