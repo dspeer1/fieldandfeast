@@ -213,8 +213,6 @@ h2 {
 
 #offerings section {
   background-color: var(--olive-green);
-  display: grid;
-  grid-template-rows: auto auto auto;
   padding: 15px;
   margin: 10px 0;
   border-radius: 10px;
@@ -309,7 +307,23 @@ footer a {
 
 
 @media (min-width: 600px) {
+  #offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
 
+  #offerings section:nth-of-type(1) {
+    grid-column: 1;
+  }
+
+  #offerings section:nth-of-type(2) {
+    grid-column: 2;
+  }
+
+  #offerings section:nth-of-type(3) {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (min-width: 900px) {
