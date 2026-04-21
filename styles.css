@@ -128,12 +128,12 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 
 body {
-    font-family: Playfair Display;
-    font-size: 90%;
-    font-weight: 500;
-    line-height: 1.45;
-    background-color: var(--midnight-blue);
-    color: var(--dark-charcoal);
+  font-family: Playfair Display;
+  font-size: 90%;
+  font-weight: 500;
+  line-height: 1.45;
+  background-color: var(--midnight-blue);
+  color: var(--dark-charcoal);
 }
 
 header img {
@@ -143,25 +143,25 @@ header img {
 }
 
 h1 {
-    background-color: var(--midnight-blue);
-    color: var(--linen);
-    font-size: 450%;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
+  background-color: var(--midnight-blue);
+  color: var(--linen);
+  font-size: 450%;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
 }
 
 header p {
-    background-color: var(--midnight-blue);
-    color: var(--linen);
-    font-size: 125%;
-    font-style: italic;
-    text-align: center;
-    padding-bottom: 20px;
+  background-color: var(--midnight-blue);
+  color: var(--linen);
+  font-size: 125%;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 header nav {
-    background-color: var(--champagne-gold);
+  background-color: var(--champagne-gold);
 }
 
 header nav ul {
@@ -191,9 +191,9 @@ main p {
 }
 
 h2 {
-    color: var(--midnight-blue);
-    font-size: 225%;
-    font-weight: 500;
+  color: var(--midnight-blue);
+  font-size: 225%;
+  font-weight: 500;
 }
 
 #about {
@@ -250,12 +250,55 @@ h2 {
   border-radius: 10px;
 }
 
-h3 {
-    background-color: var(--olive-green);
-    color: var(--linen);
-    font-size: 180%;
-    font-weight: bold;
+#gallery figcaption {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-style: italic;
 }
+
+#gallery a {
+  display: flex;
+  background-color: var(--olive-green);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: var(--linen);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+h3 {
+  background-color: var(--olive-green);
+  color: var(--linen);
+  font-size: 180%;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+footer small {
+  display: block;
+  color: var(--linen);
+}
+
+footer small:nth-of-type(4), footer small:nth-of-type(5) {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: var(--champagne-gold);
+  text-decoration: none;
+}
+
 
 
 
