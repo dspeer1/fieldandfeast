@@ -281,7 +281,8 @@ h3 {
 }
 
 footer {
-  margin-top: 60px;
+  background-color: var(--midnight-blue);
+  padding-top: 60px;
   text-align: center;
 }
 
@@ -343,8 +344,8 @@ footer a {
 
 @media (min-width: 1200px) {
   main {
-    background-color: var(--soft-white);
-    margin-left: 200px;
+    margin-left: 575px;
+    margin-right: 575px;
   }
 
   #gallery > div {
