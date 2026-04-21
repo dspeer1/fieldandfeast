@@ -220,10 +220,34 @@ h2 {
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2)
 }
 
+#offerings ul li {
+  font-size: 110%;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 #gallery {
   margin: 20px;
   border-bottom: 2px solid var(--champagne-gold);
   padding-bottom: 20px;
+}
+
+#gallery > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+#gallery figure {
+  border-radius: 10px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2)
+}
+
+#gallery img {
+  display: block;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
 }
 
 h3 {
@@ -232,6 +256,7 @@ h3 {
     font-size: 180%;
     font-weight: bold;
 }
+
 
 
 
