@@ -183,6 +183,7 @@ header ul a {
 
 main {
   background-color: var(--soft-white);
+  padding-bottom: 10px;
 }
 
 main p {
